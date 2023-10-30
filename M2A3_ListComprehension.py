@@ -9,6 +9,6 @@
 
 frase = "Hoje estou na aula 2 de programaçao em Python"
 
-lst_vogais = [letra for letra in frase if letra in 'aeiou']
+lst_vogais = [letra for letra in frase if letra in ('a','e','i','o','u')]
 
 print(lst_vogais)
