@@ -20,5 +20,6 @@ else:
     aluno_status['situacao'] = 'Reprovado'
 
 for i,(item,valor) in enumerate(aluno_status.items()):
-    print(f'')
+    print(f'{i+1}-{item}:{valor}')
+
 
